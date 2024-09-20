@@ -73,7 +73,8 @@ def type_of_character(option):
 
 
 st.title("Literary Chatbot — Frankenstein")
-st.markdown("### Ask different experiences in their own worlds about how society is biased based on appearances")
+st.markdown("### Ask different characters about their experiences in their own worlds about how society is biased "
+            "based on appearances")
 st.markdown("## Characters")
 st.write("1. Victor Frankenstein (Frankenstein)")
 st.write("2. His Creature (Frankenstein)")
