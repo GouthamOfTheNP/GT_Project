@@ -99,7 +99,7 @@ if option != "":
 	# Add user message to chat history
 	time.sleep(1)
 	with st.chat_message("assistant"):
-		character = st.write_stream(type_of_character(option))
+		character = st.write_stream(character + ": " + type_of_character(option))
 	# Display user message in chat message container
 	# Display assistant response in chat message container
 	time.sleep(2)
