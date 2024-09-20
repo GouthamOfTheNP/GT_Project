@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import time
 
-st.set_page_config(title="Literary Exploration Bot — Goutham Pedinedi")
+st.set_page_config(page_title="Literary Exploration Bot — Goutham Pedinedi")
 
 def response_generator(character: str):
 	response = ""
