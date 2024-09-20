@@ -105,3 +105,30 @@ if option != "":
 		response = st.write_stream(response_generator(option))
 	# Add assistant response to chat history
 	st.session_state.messages.append({"role": "assistant", "content": response})
+
+footer = """<style>
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+position: dynamic;
+left: 0;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>Developed with Python and Streamlit by Goutham Pedinedi</p>
+</div>
+"""
+st.markdown(footer, unsafe_allow_html=True)
