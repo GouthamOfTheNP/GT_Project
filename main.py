@@ -82,8 +82,9 @@ st.write("2. Frankenstein's Creature (Frankenstein)")
 st.write("3. De Lacey Family (Frankenstein)")
 st.write('4. Artyom (protagonist, who is the "chosen one" from Metro 2033)')
 st.write('5. Dark Ones (mutated humans/"antagonists" who get bombed by the survivors of nuclear war | from Metro 2033)')
-st.write('6. Royal Family (Las Meninas)')
-st.write('7. Servants (Las Meninas)')
+url = "https://en.wikipedia.org/wiki/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg"
+st.write('6. Royal Family ([Las Meninas](%s))' % url)
+st.write('7. Servants ([Las Meninas](%s))' % url)
 
 option = st.selectbox("Which character would you like to choose? ",
                       ("", "Victor Frankenstein", "Frankenstein's Creature", "De Lacey Family", "Artyom (from Metro 2033)",
