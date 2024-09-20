@@ -73,7 +73,7 @@ def type_of_character(option):
 		time.sleep(0.05)
 
 
-st.title("Literary Exploration Bot — Frankenstein")
+st.title("Literary Exploration Bot")
 st.markdown("### Learn about about different characters' experiences (in their own worlds) about how society is biased "
             "based on appearances")
 st.markdown("## Characters")
