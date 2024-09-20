@@ -21,11 +21,11 @@ def response_generator(character: str):
 	elif character == "Dark Ones (mutated humans from Metro 2033)":
 		file = open("responses/darkones.txt", "r")
 		responses = file.readlines()
-		response = random.choice(responses)
+		response = "AI: " + random.choice(responses)
 	elif character == "De Lacey Family":
 		file = open("responses/cottagers.txt", "r")
 		responses = file.readlines()
-		response = "AI: " + random.choice(responses)
+		response = random.choice(responses)
 	elif character == "Royal Family":
 		file = open("responses/royalfamily.txt", "r")
 		responses = file.readlines()
