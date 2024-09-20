@@ -44,26 +44,26 @@ def response_generator(character: str):
 def type_of_character(option):
 	character_text = ""
 	if option == "Victor Frankenstein":
-		character_text = option + ": " + "You are now acting as the Robert Walton, the patient listener of Frankenstein's story."
+		character_text = "Assistant" + ": " + "You are now acting as the Robert Walton, the patient listener of Frankenstein's story."
 	elif option == "Frankenstein's Creature":
-		character_text = option + ": " + "You are now acting as Victor Frankenstein, the agitated listener of his creation."
+		character_text = "Assistant" + ": " + "You are now acting as Victor Frankenstein, the agitated listener of his creation."
 	elif option == "De Lacey Family":
-		character_text = (option + ": " +
+		character_text = ("Assistant" + ": " +
 			"You are now acting as a passerby, listening to the tale of the interaction between the De Lacey Family and"
 			" the creature.")
 	elif option == "Artyom (from Metro 2033)":
-		character_text = (option + ": " +
+		character_text = ("Assistant" + ": " +
 			"You are now acting as a fellow survivor of the global nuclear war, living in the Moscow Metro,"
 			"listening to Artyom opine about the Dark Ones.")
 	elif option == "Dark Ones (mutated humans from Metro 2033)":
-		character_text = (option + ": " + "You are now acting as a human survivor in the Moscow Metro, watching the Dark Ones address "
+		character_text = ("Assistant" + ": " + "You are now acting as a human survivor in the Moscow Metro, watching the Dark Ones address "
 		                  "humankind.")
 	elif option == "Royal Family":
-		character_text = (option + ": " +
+		character_text = ("Assistant" + ": " +
 			"You are now acting as a part of the royal family, listening to your family in Las Meninas talk about "
 			"their beauty.")
 	elif option == "Servants":
-		character_text = (option + ": " +
+		character_text = ("Assistant" + ": " +
 			"You are now acting as a family member of the servants of the royal family, listening to your family "
 			"talk about how disadvantageous it is to not be attractive.")
 	else:
