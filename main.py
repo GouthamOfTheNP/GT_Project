@@ -9,33 +9,33 @@ def response_generator(character: str):
 	if character == "Victor Frankenstein":
 		file = open("responses/frankenstein.txt", "r")
 		responses = file.readlines()
-		response = random.choice(responses)
+		response = "AI: " + random.choice(responses)
 	elif character == "His Creature":
 		file = open("responses/creature.txt", "r")
 		responses = file.readlines()
-		response = random.choice(responses)
+		response = "AI: " + random.choice(responses)
 	elif character == "Artyom (from Metro 2033)":
 		file = open("responses/artyom.txt", "r")
 		responses = file.readlines()
-		response = random.choice(responses)
+		response = "AI: " + random.choice(responses)
 	elif character == "Dark Ones (mutated humans from Metro 2033)":
 		file = open("responses/darkones.txt", "r")
 		responses = file.readlines()
-		response = random.choice(responses)
+		response = "AI: " + random.choice(responses)
 	elif character == "De Lacey Family":
 		file = open("responses/cottagers.txt", "r")
 		responses = file.readlines()
-		response = random.choice(responses)
+		response = "AI: " + random.choice(responses)
 	elif character == "Royal Family":
 		file = open("responses/royalfamily.txt", "r")
 		responses = file.readlines()
-		response = random.choice(responses)
+		response = "AI: " + random.choice(responses)
 	elif character == "Servants":
 		file = open("responses/servants.txt", "r")
 		responses = file.readlines()
-		response = random.choice(responses)
+		response = "AI: " + random.choice(responses)
 	else:
-		response = "Hello there! I'm not familiar with that character. Can you please provide more information?"
+		response = "AI: " + "Hello there! I'm not familiar with that character. Can you please provide more information?"
 	for word in response.split():
 		yield word + " "
 		time.sleep(0.05)
