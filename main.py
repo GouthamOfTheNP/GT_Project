@@ -59,7 +59,7 @@ def type_of_character(option):
 		                  "humankind.")
 	elif option == "Royal Family":
 		character_text = (
-			"You are now acting as a royal court member listening to the royal family in Las Meninas talk about "
+			"You are now acting as a part of the royal family, listening to your family in Las Meninas talk about "
 			"their beauty.")
 	elif option == "Servants":
 		character_text = (
@@ -73,13 +73,15 @@ def type_of_character(option):
 
 
 st.title("Literary Chatbot — Frankenstein")
-st.markdown("###Ask different experiences in their own worlds about how society is biased based on appearances")
-st.markdown("##Characters")
+st.markdown("### Ask different experiences in their own worlds about how society is biased based on appearances")
+st.markdown("## Characters")
 st.write("1. Victor Frankenstein (Frankenstein)")
 st.write("2. His Creature (Frankenstein)")
 st.write("3. De Lacey Family (Frankenstein)")
 st.write('4. Artyom (protagonist, who is the "chosen one" from Metro 2033)')
 st.write('5. Dark Ones (mutated humans/"antagonists" who get bombed by the survivors of nuclear war | from Metro 2033)')
+st.write('6. Royal Family (Las Meninas)')
+st.write('7. Servants (Las Meninas)')
 
 option = st.selectbox("Which character would you like to choose? ",
                       ("", "Victor Frankenstein", "His Creature", "De Lacey Family", "Artyom (from Metro 2033)",
