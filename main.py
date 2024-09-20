@@ -10,7 +10,7 @@ def response_generator(character: str):
 		file = open("responses/frankenstein.txt", "r")
 		responses = file.readlines()
 		response = "AI: " + random.choice(responses)
-	elif character == "His Creature":
+	elif character == "Frankenstein's Creature":
 		file = open("responses/creature.txt", "r")
 		responses = file.readlines()
 		response = "AI: " + random.choice(responses)
